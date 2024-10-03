@@ -8,7 +8,6 @@ services:
     restart: alway
 s    ports:
       - "20021:21"
-      - "30000-30009:30000-30009"
     volumes:
       - fbg-ftp-data:/home/twh/fbg-ftp-data
     environment:
